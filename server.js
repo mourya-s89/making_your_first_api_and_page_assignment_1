@@ -20,7 +20,7 @@ app.get("/assistant/greet",(req,res)=>{
       }
     );
   }catch(error){
-    req.status(500).send({message:"something went wrong",error:error})
+    req.status(500).send({message:"something went wrong",error:error});
   }
 })
 /*
